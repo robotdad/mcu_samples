@@ -34,3 +34,6 @@
 # Build output
 out/
 build/
+
+# IDE output
+.vscode/*.log
