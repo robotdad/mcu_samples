@@ -37,7 +37,7 @@ add_executable(${MCUX_SDK_PROJECT_NAME}
 )
 
 target_include_directories(${MCUX_SDK_PROJECT_NAME} PRIVATE
-    ..
+    ${ProjDirPath}
 )
 
 set(CMAKE_MODULE_PATH

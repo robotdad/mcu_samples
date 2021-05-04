@@ -37,7 +37,7 @@ add_executable(${MCUX_SDK_PROJECT_NAME}
 )
 
 target_include_directories(${MCUX_SDK_PROJECT_NAME} PRIVATE
-    ..
+    ${ProjDirPath}
 )
 
 # Note relative prject path, cm33_core1 project must compile first.

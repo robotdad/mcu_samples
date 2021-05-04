@@ -27,7 +27,6 @@ include(flags.cmake)
 include(config.cmake)
 
 add_executable(${MCUX_SDK_PROJECT_NAME} 
-# no reason to set dir
 "freertos_hello.c"
 "pin_mux.c"
 "pin_mux.h"

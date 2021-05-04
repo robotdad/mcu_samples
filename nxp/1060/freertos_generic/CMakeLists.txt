@@ -46,9 +46,6 @@ add_executable(${MCUX_SDK_PROJECT_NAME}
 )
 
 target_include_directories(${MCUX_SDK_PROJECT_NAME} PRIVATE
-    # Not sure why this was ever here as all that went to that location was the firmware
-    # ${ProjDirPath}/.. debug
-    # this is needed so that FreeRTOSConfig.h (maybe others) are found by FreeRTOS files outside project folder that refernece it
     ${ProjDirPath}
 )
 
