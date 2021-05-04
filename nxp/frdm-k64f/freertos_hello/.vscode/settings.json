@@ -1,0 +1,11 @@
+{
+    "C_Cpp.default.configurationProvider": "ms-vscode.cmake-tools",
+    "cmake.configureOnOpen": false,
+    "cmake.generator": "Ninja",
+    "cmake.buildDirectory": "${workspaceFolder}/build",
+    "cmake.configureSettings": {
+        // ARMGCC_DIR must be set to root of install, not bin, as an env var for this toolchain file to work
+        "NXP_SDK_PATH": "C:/source/nxp/SDK_2.9.0_FRDM-K64F",
+        "CMAKE_TOOLCHAIN_FILE": "C:/source/nxp/SDK_2.9.0_FRDM-K64F/tools/cmake_toolchain_files/armgcc.cmake"
+    }
+}
